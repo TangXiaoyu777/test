@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: function-1-1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8361.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/function-1-1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyCpp(win)\function-1-1.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8361.tmp" 
+<h3>Output Window</h3>
+Compiling...
+function-1-1.cpp
+d:\mycpp(win)\function-1-1.cpp(4) : error C2562: 'hello' : 'void' function returning a value
+        d:\mycpp(win)\function-1-1.cpp(2) : see declaration of 'hello'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+function-1-1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
